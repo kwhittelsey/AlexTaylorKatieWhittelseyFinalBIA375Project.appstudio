@@ -1,0 +1,137 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "txtResults.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "btnShow.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "heDiaryCopyCopy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "Label1CopyCopy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "inptWeight2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "btnSubmit3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "inptDate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "lblDate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "modMessage7.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "modMessage8.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "WeightLog",
+        "Elements",
+        "modMessage9.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 0,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "WeightLog",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}
