@@ -1,0 +1,647 @@
+<!DOCTYPE HTML>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<title>AlexTaylorKatieWhittelseyFinalProject</title>
+<meta name="generator" content="NSB/AppStudio 8.0.6.0$rgkw" />
+<meta name='date' content='2020-05-01 13:25:48.802836' />
+<meta name='Description' content='AlexTaylorKatieWhittelseyFinalProject' />
+<meta name='version' content='1.0.0' />
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no viewport-fit=cover' />
+<meta name='theme-color' content='#000000' />
+<meta name='mobile-web-app-capable' content='yes' />
+<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+<meta name='apple-mobile-web-app-title' content='' />
+<meta name='copyright' content='copyright 2020 ABC Company' />
+<link rel='apple-touch-icon' href='nsb/images/192.png' />
+<link rel='shortcut icon' href='nsb/images/192.png' />
+<link href='manifest.json' rel='manifest' />
+<link href="toolbox/as/dist/asStyle.css" rel="stylesheet">
+<script src="nsb/library/jquery3.js"></script>
+<link href="nsb/library/jquery.modal.min.css" rel="stylesheet">
+<script src="nsb/library/jquery.modal.min.js"></script>
+<script src="nsb/library/appstudioFunctions.js"></script>
+<link href="toolbox/bs4/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="toolbox/bs4/dist/open-iconic/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+<script src="toolbox/bs4/dist/js/bootstrap.bundle.min.js"></script>
+<script src="toolbox/bs4/dist/bsFunctions.min.js"></script>
+<script src="https://jqwidgets.com/public/jqwidgets/jqxcore.js"></script>
+<link href="https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css" rel="stylesheet">
+<link href="https://jqwidgets.com/public/jqwidgets/styles/jqx.classic.css" rel="stylesheet">
+<script src="https://jqwidgets.com/public/jqwidgets/jqxpasswordinput.js"></script>
+<script src="https://jqwidgets.com/public/jqwidgets/jqxtooltip.js"></script>
+<script src="https://jqwidgets.com/public/jqwidgets/jqxdatetimeinput.js"></script>
+<script src="https://jqwidgets.com/public/jqwidgets/jqxcalendar.js"></script>
+<script src="https://jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
+
+<style type="text/css">
+
+#Login {background:inherit;}
+#heLogIn {position:absolute;}
+
+#inptNetID {position:absolute; top:69px; width:275px;}
+#btnLogin {position:absolute; left:233px; top:194px; width:91px;}
+#inptNetPass {position:absolute; left:84px; top:143px; height:25px; width:204px;}
+#lblPass {position:absolute; left:0px; top:143px;}
+#Home {background:inherit;}
+#btnFoodLog {position:absolute; left:77px; top:76px; width:160px;}
+#btnWeightLog {position:absolute; left:77px; top:117px; width:161px;}
+#btnCalMain {position:absolute; left:77px; top:158px;}
+#btnSearchFood {position:absolute; left:77px; top:198px; width:162px;}
+#heLogInCopy {position:absolute;}
+
+#btnMealPlanGen {position:absolute; left:77px; top:239px; width:162px;}
+#CalMain {background:inherit;}
+#heHome {position:absolute;}
+#hmbrMenu4 {}
+#btnSubmit {position:absolute; left:247px; top:384px;}
+#lblHome {position:absolute; left:9px; top:65px; width:309px;}
+#selGender {position:absolute; left:0px; top:107px; width:167px;}
+#inptAge {position:absolute; left:0px; top:162px; width:169px;}
+#inptFeet {position:absolute; left:0px; top:217px; width:230px;}
+#inptInches {position:absolute; left:0px; top:267px; width:230px;}
+#inptWeight {position:absolute; left:0px; top:319px; width:230px;}
+
+
+#FoodLog {background:inherit;}
+#Label1Copy1 {position:absolute; left:56px; top:59px;}
+#inptMeal1 {position:absolute; left:0px; top:103px; width:324px;}
+#inptCalories1 {position:absolute; left:0px; top:158px; width:201px;}
+#btnAdd2 {position:absolute; left:0px; top:216px; width:96px;}
+#heDiaryCopy {position:absolute;}
+#hmbrMenu2 {}
+
+
+
+
+
+
+#WeightLog {background:inherit;}
+#txtResults {position:absolute; left:1px; top:114px; width:323px;}
+#btnShow {position:absolute; left:136px; top:192px;}
+#heDiaryCopyCopy {position:absolute;}
+#hmbrMenu5 {}
+#Label1CopyCopy {position:absolute; left:25px; top:63px;}
+#inptWeight2 {position:absolute; left:0px; top:310px; height:48px; width:210px;}
+#btnSubmit3 {position:absolute; left:247px; top:357px;}
+#inptDate {position:absolute; left:49px; top:271px; height:30px; width:154px;}
+#lblDate {position:absolute; left:0px; top:276px;}
+
+
+
+
+
+
+#Search {background:inherit;}
+#heDiary {position:absolute;}
+#hmbrMenu1 {}
+#inptFood {position:absolute; left:0px; top:102px; height:48px; width:324px;}
+#btnSearch {position:absolute; left:244px; top:150px; width:80px;}
+#Label1Copy {position:absolute; left:70px; top:64px;}
+#selMeal {position:absolute; left:0px; top:202px; width:324px;}
+#btnAdd1 {position:absolute; left:228px; top:256px; width:96px;}
+#MealPlan {background:inherit;}
+#inptTime {position:absolute; left:0px; top:101px; width:324px;}
+#inptDiet {position:absolute; left:0px; top:233px; width:324px;}
+#inptExclude {position:absolute; left:0px; top:189px; width:324px;}
+#txtData {position:absolute; left:0px; top:318px; height:146px; width:324px;}
+#btnSubmit2 {position:absolute; left:247px; top:276px;}
+#inptCalories {position:absolute; left:0px; top:145px; width:185px;}
+#heHomeCopy {position:absolute;}
+#hmbrMenu3 {}
+#Label1Copy1Copy {position:absolute; left:23px; top:58px; width:282px;}
+</style>
+
+</head>
+<body style="margin:0px;-ms-touch-action:none;font-family:-apple-system, '.SFNSText-Regular', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue';">
+<noscript><h1>JavaScript must be enabled!</h1></noscript>
+<div data-role="page" id="NSBPage" data-theme="a" style="position:absolute; width:100%; height:100%; background-color:inherit; ">
+<a name='/Login' data-role=none></a>
+<div id="Login"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+Login.innerHTML=["",  "<div id='heLogIn' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Log In'>","<div id=heLogIn_addChild>",,"</div>","Log In</div>",
+  "<div id=inptNetID class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptNetID_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>NetID:<span></div>",
+        "<input id='inptNetID_contents' type='text' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true required  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+
+    "<button id='btnLogin' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Log In'><span id='btnLogin_icon' class=''></span>Log In<span id=btnLogin_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<input type='password' id='inptNetPass' data-role='none' style='' class=''>",
+  "<span id='lblPass' style='font-family:inherit;padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Password:'>Password:</span>",
+  ].join('');
+</script>
+</div>
+<a name='/Home' data-role=none></a>
+<div id="Home"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+Home.innerHTML=["",
+    "<button id='btnFoodLog' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Food Log'><span id='btnFoodLog_icon' class=''></span>Food Log<span id=btnFoodLog_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+
+    "<button id='btnWeightLog' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Weight Log'><span id='btnWeightLog_icon' class=''></span>Weight Log<span id=btnWeightLog_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+
+    "<button id='btnCalMain' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Calorie Calculation'><span id='btnCalMain_icon' class=''></span>Calorie Calculation<span id=btnCalMain_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+
+    "<button id='btnSearchFood' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Search for Food'><span id='btnSearchFood_icon' class=''></span>Search for Food<span id=btnSearchFood_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<div id='heLogInCopy' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Home'>","<div id=heLogInCopy_addChild>",,"</div>","Home</div>",
+
+    "<button id='btnMealPlanGen' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Meal Plan'><span id='btnMealPlanGen_icon' class=''></span>Meal Plan<span id=btnMealPlanGen_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  ].join('');
+</script>
+</div>
+<a name='/CalMain' data-role=none></a>
+<div id="CalMain"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+CalMain.innerHTML=["",  "<div id='heHome' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Calorie Intake'>","<div id=heHome_addChild>",  NSB.bs.dropdown.make('hmbrMenu4', '', 'dropdown', ' ', '', 'font-family:inherit;border-color:transparent; float:right;', 'border-color:transparent; ', ' btn-secondary', '', ' btn-md', 'menu', '', ' dropdown-menu-right', 'Home\u000AFood Log\u000AWeight Log\u000ASearch for Food\u000AMeal Plan', '', '', '<span id=hmbrMenu4_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span>', ''),,"</div>","Calorie Intake</div>",
+
+    "<button id='btnSubmit' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Submit'><span id='btnSubmit_icon' class=''></span>Submit<span id=btnSubmit_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<span id='lblHome' style='font-family:inherit;font-weight:bold;padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Enter information below for calculation'>Enter information below for calculation</span>",
+  "<div id=selGender data-role='none' class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<div class='input-group' style='width:100%;'>",
+        "<span id=selGender_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+    NSB.bs.select.make('selGender', 'font-family:inherit;', '', 'Male\u000AFemale', '', '', ''),
+      "</div>",
+      "</div>",
+  "</div></div>",
+  "<div id=inptAge class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptAge_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Age:<span></div>",
+        "<input id='inptAge_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=inptFeet class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptFeet_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Feet:<span></div>",
+        "<input id='inptFeet_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=inptInches class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptInches_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Inches:<span></div>",
+        "<input id='inptInches_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=inptWeight class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptWeight_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Weight in lbs:<span></div>",
+        "<input id='inptWeight_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id='modHome' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modHome_header' class='modal-header'>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modHome_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modHome_addChild></div>",
+        "</div>",
+  ].join('');
+</script>
+</div>
+<a name='/FoodLog' data-role=none></a>
+<div id="FoodLog"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+FoodLog.innerHTML=["",  "<span id='Label1Copy1' style='font-family:inherit;font-weight:bold;background-color:danger; padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Manually add meal or food'>Manually add meal or food</span>",
+  "<div id=inptMeal1 class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptMeal1_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Input meal or food:<span></div>",
+        "<input id='inptMeal1_contents' type='text' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=inptCalories1 class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptCalories1_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Calories:<span></div>",
+        "<input id='inptCalories1_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+
+    "<button id='btnAdd2' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Add Meal'><span id='btnAdd2_icon' class=''></span>Add Meal<span id=btnAdd2_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<div id='heDiaryCopy' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Log Calories'>","<div id=heDiaryCopy_addChild>",  NSB.bs.dropdown.make('hmbrMenu2', '', 'dropdown', ' ', '', 'font-family:inherit;border-color:transparent; float:right;', 'border-color:transparent; ', ' btn-secondary', '', ' btn-md', 'menu', '', ' dropdown-menu-right', 'Home\u000AWeight Log\u000ACalorie Calculation\u000ASearch for Food\u000AMeal Plan', '', '', '<span id=hmbrMenu2_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span>', ''),,"</div>","Log Calories</div>",
+  "<div id='modMessage4' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modMessage4_header' class='modal-header'>",
+          "<h4 id='modMessage4_title' class='modal-title' data-i18n='Message'>Message<span id=modMessage4_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></h4>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modMessage4_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modMessage4_addChild></div>",
+        "</div>",
+  "<div id='modMessage5' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modMessage5_header' class='modal-header'>",
+          "<h4 id='modMessage5_title' class='modal-title' data-i18n='Modal'>Modal<span id=modMessage5_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></h4>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modMessage5_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modMessage5_addChild></div>",
+        "</div>",
+        "<div id='modMessage5_footer' class='modal-footer' data-i18n='Footer'>Footer",
+        "</div>",
+      "</div>",
+    "</div>",
+  "</div>",
+  "<div id='modMessage6' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modMessage6_header' class='modal-header'>",
+          "<h4 id='modMessage6_title' class='modal-title' data-i18n='Modal'>Modal<span id=modMessage6_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></h4>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modMessage6_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modMessage6_addChild></div>",
+        "</div>",
+        "<div id='modMessage6_footer' class='modal-footer' data-i18n='Footer'>Footer",
+        "</div>",
+      "</div>",
+    "</div>",
+  "</div>",
+  ].join('');
+</script>
+</div>
+<a name='/WeightLog' data-role=none></a>
+<div id="WeightLog"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+WeightLog.innerHTML=["",  "<div id=txtResults data-role='none' class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div style='height:100%' class='col-sm-12'>",
+      "<div class='input-group' style='width:100%;height:100%;'>",
+        "<span id=txtResults_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+    "<textarea id='txtResults_contents' class='form-control' name='' style='font-family:inherit;overflow-scrolling:touch; height:100%; ' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''></textarea>",
+      "</div>",
+      "</div>",
+  "</div></div>",
+
+    "<button id='btnShow' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Show Logged Weights'><span id='btnShow_icon' class=''></span>Show Logged Weights<span id=btnShow_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<div id='heDiaryCopyCopy' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Weight Log'>","<div id=heDiaryCopyCopy_addChild>",  NSB.bs.dropdown.make('hmbrMenu5', '', 'dropdown', ' ', '', 'font-family:inherit;border-color:transparent; float:right;', 'border-color:transparent; ', ' btn-secondary', '', ' btn-md', 'menu', '', ' dropdown-menu-right', 'Home\u000AFood Log\u000ACalorie Calculation\u000ASearch for Food\u000AMeal Plan', '', '', '<span id=hmbrMenu5_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span>', ''),,"</div>","Weight Log</div>",
+  "<span id='Label1CopyCopy' style='font-family:inherit;font-weight:bold;background-color:danger; padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Display weight log and add weight'>Display weight log and add weight</span>",
+  "<div id=inptWeight2 class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptWeight2_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Weight:<span></div>",
+        "<input id='inptWeight2_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+
+    "<button id='btnSubmit3' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Submit'><span id='btnSubmit3_icon' class=''></span>Submit<span id=btnSubmit3_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<div id='inptDate' style='' class=''></div>",
+  "<span id='lblDate' style='font-family:inherit;padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Date:'>Date:</span>",
+  "<div id='modMessage7' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modMessage7_header' class='modal-header'>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modMessage7_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modMessage7_addChild></div>",
+        "</div>",
+  "<div id='modMessage8' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modMessage8_header' class='modal-header'>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modMessage8_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modMessage8_addChild></div>",
+        "</div>",
+  "<div id='modMessage9' class='modal fade' style='font-family:inherit;'>",
+    "<div class='modal-dialog modal-dialog'>",
+      "<div class='modal-content'>",
+        "<div id='modMessage9_header' class='modal-header'>",
+          "<button type='button' class='close' data-dismiss='modal'>&times;</button>",
+        "</div>",
+        "<div id='modMessage9_body' class='modal-body' data-i18n='Value - content of main section '>Value - content of main section ",
+          "<div id=modMessage9_addChild></div>",
+        "</div>",
+  ].join('');
+</script>
+</div>
+<a name='/Search' data-role=none></a>
+<div id="Search"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+Search.innerHTML=["",  "<div id='heDiary' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Search for Food'>","<div id=heDiary_addChild>",  NSB.bs.dropdown.make('hmbrMenu1', '', 'dropdown', ' ', '', 'font-family:inherit;border-color:transparent; float:right;', 'border-color:transparent; ', ' btn-secondary', '', ' btn-md', 'menu', '', ' dropdown-menu-right', 'Home\u000AFood Log\u000AWeight Log\u000ACalorie Calculation\u000AMeal Plan', '', '', '<span id=hmbrMenu1_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span>', ''),,"</div>","Search for Food</div>",
+  "<div id=inptFood class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptFood_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Enter food here:<span></div>",
+        "<input id='inptFood_contents' type='text' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+
+    "<button id='btnSearch' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Search'><span id='btnSearch_icon' class=''></span>Search<span id=btnSearch_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<span id='Label1Copy' style='font-family:inherit;font-weight:bold;background-color:danger; padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Search for meal or food'>Search for meal or food</span>",
+  "<div id=selMeal data-role='none' class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<div class='input-group' style='width:100%;'>",
+        "<span id=selMeal_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+    NSB.bs.select.make('selMeal', 'font-family:inherit;', '', '', '101\u000A102\u000A103\u000A104', '', ''),
+      "</div>",
+      "</div>",
+  "</div></div>",
+
+    "<button id='btnAdd1' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Add Meal'><span id='btnAdd1_icon' class=''></span>Add Meal<span id=btnAdd1_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  ].join('');
+</script>
+</div>
+<a name='/MealPlan' data-role=none></a>
+<div id="MealPlan"  class="nsb-form " style="display:none;  position:absolute;  height: 100vh; top:0px; left:0px; width:100%; ">
+<script>
+MealPlan.innerHTML=["",  "<div id=inptTime class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptTime_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Timeframe<span></div>",
+        "<input id='inptTime_contents' type='text' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true placeholder='i.e. day'  data-i18n='i.e. day'  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=inptDiet class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptDiet_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Diet<span></div>",
+        "<input id='inptDiet_contents' type='text' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true placeholder='i.e. vegetarian'  data-i18n='i.e. vegetarian'  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=inptExclude class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptExclude_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Allergies<span></div>",
+        "<input id='inptExclude_contents' type='text' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id=txtData data-role='none' class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div style='height:100%' class='col-sm-12'>",
+      "<div class='input-group' style='width:100%;height:100%;'>",
+        "<span id=txtData_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+    "<textarea id='txtData_contents' class='form-control' name='' style='font-family:inherit;overflow-scrolling:touch; height:100%; ' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''></textarea>",
+      "</div>",
+      "</div>",
+  "</div></div>",
+
+    "<button id='btnSubmit2' data-role='none' class='btn btn-success btn-md ' style='font-family:inherit;' data-i18n='Submit'><span id='btnSubmit2_icon' class=''></span>Submit<span id=btnSubmit2_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span></button>",
+  "<div id=inptCalories class='' style='font-family:inherit;'>",
+  "<div style='height:100%' class='form-group row'>",
+    "<div class='col-sm-12'>",
+      "<span id=inptCalories_badge class='badge badge-info' style=margin-bottom:4px;></span>",
+      "<div class='input-group ' style='width:100%;'>",
+        "<div class='input-group-prepend'><span class='input-group-text''>Calories<span></div>",
+        "<input id='inptCalories_contents' type='number' autocapitalize=on autocorrect=on autocomplete=on spellcheck=true  data-i18n=''  style='font-family:inherit;' class='form-control ' >",
+      "</div>",
+    "</div>",
+  "</div></div>",
+  "<div id='heHomeCopy' class='' data-nsb-type=Header style='cursor:default; text-align:center; text-shadow:none; top:0px; left:0px; width: 100%; font-size:16px;font-family:inherit;font-weight:bold;background-color:lightgreen;  ' data-i18n='Generate Meal Plan'>","<div id=heHomeCopy_addChild>",  NSB.bs.dropdown.make('hmbrMenu3', '', 'dropdown', ' ', '', 'font-family:inherit;border-color:transparent; float:right;', 'border-color:transparent; ', ' btn-secondary', '', ' btn-md', 'menu', '', ' dropdown-menu-right', 'Home\u000AFood Log\u000AWeight Log\u000ACalorie Calculation\u000ASearch for Food', '', '', '<span id=hmbrMenu3_badge class=\"badge badge-info\" style=\"margin-left:1ch;\"></span>', ''),,"</div>","Generate Meal Plan</div>",
+  "<span id='Label1Copy1Copy' style='font-family:inherit;font-weight:800;background-color:danger; padding-left:4px;padding-right:4px;border-radius:0px;'  class=' text-success ' data-i18n='Fill out form to generate meal plan'>Fill out form to generate meal plan</span>",
+  ].join('');
+</script>
+</div>
+</div>
+<script>
+if(!navigator.cookieEnabled) NSB.MsgBox('Please turn cookies on.');
+(function(){var all=document.getElementsByTagName('*');for(var i=0;i<all.length;i++)if(all[i].id!=''&&typeof all[i].id!='undefined'&&typeof window[all[i].id]=='undefined')window[all[i].id]=all[i];})()
+var NSB = NSB || {};
+NSB.currentForm = Login;
+NSB.stopOnError = true;
+NSB.enableBrowserArrows = false;
+NSB.enableAppScroll = false;
+NSB.id = 'AlexTaylorKatieWhittelseyFinalProject';
+NSB.initLanguage();
+NSB.voltAppId = '';
+NSB.voltDashboardAccess = False;
+NSB.voltDomain = '';
+NSB.PWA = true;
+if ($.mobile != undefined) $.mobile.hashListeningEnabled = false;
+
+// ***** Code for form: Login *****
+window.addEventListener('load', function() {
+  Login.style.display = 'block';
+  NSB.addProperties(Login);
+  heLogIn.style.lineHeight='40px';
+  NSB.addProperties.addChild(heLogIn);
+  NSB.addProperties(heLogIn);
+
+  inptNetID.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptNetID, 'Input_bs4');
+  NSB.bs.addProperties(btnLogin, 'Button_bs4');
+  NSB.jqxSettings['inptNetPass']={
+    disabled:false,
+    width:'204',
+    height:'25',
+    rtl:false,
+    theme:'classic',
+    showPasswordIcon: true,
+    showStrength: false,
+    maxLength: 16,
+    placeHolder: '',
+  }
+  $('#inptNetPass').jqxPasswordInput(NSB.jqxSettings['inptNetPass']);
+  NSB.addProperties(inptNetPass);
+  NSB.bs.addProperties(lblPass, 'Label_bs4');
+  Login.style.display = 'none';
+}, false);
+
+// ***** Code for form: Home *****
+window.addEventListener('load', function() {
+  Home.style.display = 'block';
+  NSB.addProperties(Home);
+  NSB.bs.addProperties(btnFoodLog, 'Button_bs4');
+  NSB.bs.addProperties(btnWeightLog, 'Button_bs4');
+  NSB.bs.addProperties(btnCalMain, 'Button_bs4');
+  NSB.bs.addProperties(btnSearchFood, 'Button_bs4');
+  heLogInCopy.style.lineHeight='40px';
+  NSB.addProperties.addChild(heLogInCopy);
+  NSB.addProperties(heLogInCopy);
+
+  NSB.bs.addProperties(btnMealPlanGen, 'Button_bs4');
+  Home.style.display = 'none';
+}, false);
+
+// ***** Code for form: CalMain *****
+window.addEventListener('load', function() {
+  CalMain.style.display = 'block';
+  NSB.addProperties(CalMain);
+  heHome.style.lineHeight='40px';
+  NSB.addProperties.addChild(heHome);
+  NSB.addProperties(heHome);
+  NSB.bs.addProperties(hmbrMenu4, 'Hamburger_bs4');
+  NSB.bs.addProperties(btnSubmit, 'Button_bs4');
+  NSB.bs.addProperties(lblHome, 'Label_bs4');
+  NSB.bs.addProperties(selGender, 'Select_bs4');
+  inptAge.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptAge, 'Input_bs4');
+  inptFeet.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptFeet, 'Input_bs4');
+  inptInches.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptInches, 'Input_bs4');
+  inptWeight.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptWeight, 'Input_bs4');
+  NSB.bs.addProperties(modHome, 'Modal_bs4');
+  
+  CalMain.style.display = 'none';
+}, false);
+
+// ***** Code for form: FoodLog *****
+window.addEventListener('load', function() {
+  FoodLog.style.display = 'block';
+  NSB.addProperties(FoodLog);
+  NSB.bs.addProperties(Label1Copy1, 'Label_bs4');
+  inptMeal1.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptMeal1, 'Input_bs4');
+  inptCalories1.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptCalories1, 'Input_bs4');
+  NSB.bs.addProperties(btnAdd2, 'Button_bs4');
+  heDiaryCopy.style.lineHeight='40px';
+  NSB.addProperties.addChild(heDiaryCopy);
+  NSB.addProperties(heDiaryCopy);
+  NSB.bs.addProperties(hmbrMenu2, 'Hamburger_bs4');
+  NSB.bs.addProperties(modMessage4, 'Modal_bs4');
+  
+  NSB.bs.addProperties(modMessage5, 'Modal_bs4');
+  
+  NSB.bs.addProperties(modMessage6, 'Modal_bs4');
+  
+  FoodLog.style.display = 'none';
+}, false);
+
+// ***** Code for form: WeightLog *****
+window.addEventListener('load', function() {
+  WeightLog.style.display = 'block';
+  NSB.addProperties(WeightLog);
+  txtResults.ontouchmove=function(e){e.stopPropagation()};
+  NSB.bs.addProperties(txtResults, 'Textarea_bs4');
+  NSB.bs.addProperties(btnShow, 'Button_bs4');
+  heDiaryCopyCopy.style.lineHeight='40px';
+  NSB.addProperties.addChild(heDiaryCopyCopy);
+  NSB.addProperties(heDiaryCopyCopy);
+  NSB.bs.addProperties(hmbrMenu5, 'Hamburger_bs4');
+  NSB.bs.addProperties(Label1CopyCopy, 'Label_bs4');
+  inptWeight2.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptWeight2, 'Input_bs4');
+  NSB.bs.addProperties(btnSubmit3, 'Button_bs4');
+  NSB.jqxSettings['inptDate']={
+     disabled:false,
+     rtl:false,
+     height:'30',
+     width:'154',
+     formatString: 'MM/dd/yyyy',
+     theme:'classic',
+     selectionMode: 'default',
+     enableBrowserBoundsDetection: true,
+     closeCalendarAfterSelection: true,
+     showCalendarButton: true,
+     dropDownHorizontalAlignment: 'right',
+     showFooter: false
+  }
+  $('#inptDate').jqxDateTimeInput(NSB.jqxSettings['inptDate'])
+  NSB.addProperties(inptDate);
+  NSB.bs.addProperties(lblDate, 'Label_bs4');
+  NSB.bs.addProperties(modMessage7, 'Modal_bs4');
+  
+  NSB.bs.addProperties(modMessage8, 'Modal_bs4');
+  
+  NSB.bs.addProperties(modMessage9, 'Modal_bs4');
+  
+  WeightLog.style.display = 'none';
+}, false);
+
+// ***** Code for form: Search *****
+window.addEventListener('load', function() {
+  Search.style.display = 'block';
+  NSB.addProperties(Search);
+  heDiary.style.lineHeight='40px';
+  NSB.addProperties.addChild(heDiary);
+  NSB.addProperties(heDiary);
+  NSB.bs.addProperties(hmbrMenu1, 'Hamburger_bs4');
+  inptFood.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptFood, 'Input_bs4');
+  NSB.bs.addProperties(btnSearch, 'Button_bs4');
+  NSB.bs.addProperties(Label1Copy, 'Label_bs4');
+  NSB.bs.addProperties(selMeal, 'Select_bs4');
+  NSB.bs.addProperties(btnAdd1, 'Button_bs4');
+  Search.style.display = 'none';
+}, false);
+
+// ***** Code for form: MealPlan *****
+window.addEventListener('load', function() {
+  MealPlan.style.display = 'block';
+  NSB.addProperties(MealPlan);
+  inptTime.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptTime, 'Input_bs4');
+  inptDiet.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptDiet, 'Input_bs4');
+  inptExclude.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptExclude, 'Input_bs4');
+  txtData.ontouchmove=function(e){e.stopPropagation()};
+  NSB.bs.addProperties(txtData, 'Textarea_bs4');
+  NSB.bs.addProperties(btnSubmit2, 'Button_bs4');
+  inptCalories.addEventListener('touchmove', function(e) {e.stopPropagation();}, false);
+  NSB.bs.addProperties(inptCalories, 'Input_bs4');
+  heHomeCopy.style.lineHeight='40px';
+  NSB.addProperties.addChild(heHomeCopy);
+  NSB.addProperties(heHomeCopy);
+  NSB.bs.addProperties(hmbrMenu3, 'Hamburger_bs4');
+  NSB.bs.addProperties(Label1Copy1Copy, 'Label_bs4');
+  MealPlan.style.display = 'none';
+}, false);
+
+
+window.addEventListener('orientationchange', function(){window.scrollTo(0,0)});
+window.addEventListener('load', function() {
+  if (typeof($().i18n) === 'function') $('[data-i18n]').i18n();
+  browserWarningMessage('Please use Google Chrome, Apple Safari or another supported browser.');
+  Login.style.display = 'block';
+  Main();
+  if (typeof(Login.onshow)=='function') Login.onshow();
+}, false);
+</script>
+<script src="code.js"></script>
+
+</body>
+</html>
